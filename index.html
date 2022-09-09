@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>intro-section-with-dropdown-navigation-main | Frontend Mentor</title>
+    <!-- Link  the icon -->
+    <link rel="icon" href="./images/favicon-32x32.png">
+
+    <!-- Link  the style Sheets of the webpage -->
+    <link rel="stylesheet" href="./BasicStyle.css">
+    <link rel="stylesheet" href="./ResponsiveStyle.css">
+</head>
+<body>
+    <main id="Container">
+        <nav>
+            <img src="./images/logo.svg" alt="Brand Logo" class="Logo">
+            <button id="MenuButtons">
+                <img src="./images/icon-menu.svg" alt="MenuIcon" id="HamMenuIcon">
+                <img src="./images/icon-close-menu.svg" alt="CloseIcon" id="CloseMenuIcon">
+            </button>
+
+            <ul id="Links">
+                <li class="dropdown">
+                    <button class="dropbtn">Features
+                        <img src="./images/icon-arrow-down.svg" alt="Arrow Down Icon" class="ArrowDown">
+                        <img src="./images/icon-arrow-up.svg" alt="Arrow Up Icon " class="ArrowUp">
+                    </button>
+                    <div class="dropdown-content">
+                      <a href="#"> <img src="./images/icon-todo.svg" alt="To Do List icon">Todo List</a>
+                      <a href="#"> <img src="./images/icon-calendar.svg" alt="Calender icon">Calender</a>
+                      <a href="#"> <img src="./images/icon-reminders.svg" alt="Reminder Icon">Reminder</a>
+                      <a href="#"> <img src="./images/icon-planning.svg" alt=" Planning icon">Planning</a>
+                    </div>
+                  </li>
+                <li class="dropdown">
+                    <button class="dropbtn">Company
+                      <img src="./images/icon-arrow-down.svg" alt="Arrow Down Icon" class="ArrowDown">
+                      <img src="./images/icon-arrow-up.svg" alt="Arrow Up Icon " class="ArrowUp">
+                    </button>
+                    <div class="dropdown-content">
+                      <a href="#">History</a>
+                      <a href="#">Our Team</a>
+                      <a href="#">Blog</a>
+                    </div>
+                  </li>
+                <li class="dropdown">
+                    <a href="#">Careers</a>
+                  </li>
+                <li class="dropdown">
+                    <a href="#">About</a>
+                </li>
+                <li class="AccountButton">
+                    <button type="button" id="LogIn">Log In</button>
+                    <button type="button" id="Register">Register</button>
+                </li>
+            </ul>
+        </nav>
+        <section id="MainContent">
+            <div class="Content">
+                <div class="tittle">
+                    <h1>Make <span> remote work</span></h1>
+                </div>
+                <div class="intro">
+                    <p>
+                        Get your team in sync, no matter your location Streamline processes, create team rituals, and watch productivity soar.
+                    </p>
+                </div>
+                <div class="button">
+                    <button type="button">Learn more</button>
+                </div>
+                <div class="clients-Logo">
+                    <img src="./images/client-databiz.svg" alt="client-databiz">
+                    <img src="./images/client-audiophile.svg" alt="client-audiophile">
+                    <img src="./images/client-meet.svg" alt="client-meet">
+                    <img src="./images/client-maker.svg" alt="client-maker">
+
+                </div>
+            </div>
+            <div class="Poster">
+             
+            </div>
+
+
+        </section>
+
+
+
+    </main>
+    
+
+    <script src="./App.js"></script>
+</body>
+</html>
